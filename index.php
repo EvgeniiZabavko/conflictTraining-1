@@ -1,19 +1,33 @@
 <?php
 
-// $arr = array('a','b','c',);
-// $paded = array_pad($arr, 5, 0);
+Задача №5 <br>
+<?php
+     $txt1='Чем дальше';
+     $txt2='тем интереснее';
+     function concatenatStrings($txt1,$txt2) {
+        $result = $txt1.','.$txt2;
+        return $result;
+        }
+        echo concatenatStrings($txt1,$txt2);
+        ?><br>
 
-// echo'<pre>';
-// print_r ($paded);
-// echo'</pre>';
 
 
 
-// $arr = array_fill(5, 10, 'aaa');
+$arr = array('a','b','c',);
+$paded = array_pad($arr, 5, 0);
 
-// echo'<pre>';
-// print_r ($arr);
-// echo'</pre>';
+echo'<pre>';
+print_r ($paded);
+echo'</pre>';
+
+
+
+$arr = array_fill(5, 10, 'aaa');
+
+echo'<pre>';
+print_r ($arr);
+echo'</pre>';
 
 
 
